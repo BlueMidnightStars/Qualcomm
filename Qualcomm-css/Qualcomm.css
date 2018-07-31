@@ -1,0 +1,927 @@
+*{
+	margin:0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+.start-section{
+	background-image: url(../Qualcomm-image/1.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.start-container{
+	width: 960px;
+	height: 426px;
+	padding-top: 114px;
+	text-align: center;
+	font-size: 0;
+
+
+}
+.start-title{
+	background-image: url(../Qualcomm-image/2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 680px;
+	height: 202px;
+	font-size: 40px;
+	color: #ffffff;
+	padding-top: 37px;
+	vertical-align: top;
+	margin-bottom: 38px;
+
+
+
+}
+.strat-map-qu .img{
+	width: 136px;
+	height: 38px;
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 11px;
+
+
+
+}
+.strat-map-jk{
+	width: 480px;
+	text-align: left;
+	display: inline-block;
+	position: relative;
+}
+.strat-map-qu{
+	width: 480px;
+	text-align: right;
+	display: inline-block;
+}
+.strat-map-jk .img{
+	width: 82px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: top;
+
+	margin-left: 11px;
+
+}
+.strat-map-jk:before{
+	content: '';
+	width: 1px;
+	height: 29px;
+	background-color: #ffffff;
+	display: inline-block;
+	position: absolute;
+	left:0;
+
+
+
+}
+.navigation-section{
+	background-color: #153188;
+	font-size: 0;
+	height: 70px;
+}
+.navigation-container{
+	width: 960px;
+	font-size: 0;
+}
+.navigation-container .roll{
+	position: fixed;
+	width: 100%;
+	text-align: center;	
+	background-color: #153188;
+	left: 0;
+	top: 0;
+	z-index: 9999999;
+}
+
+.navigation-nav{
+	width: 960px;
+	display: inline-block;
+	font-size: 0;
+}
+.nav-link{
+	line-height: 70px;
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	width: 194px;
+	height: 70px;
+	display: inline-block;
+	vertical-align: top;
+}
+.navigation-nav .active{
+	background-color: #2d4694;
+}
+.nav-link:nth-child(odd){
+	width: 190px;
+}
+.intro-section{
+	background-color: #ffffff;
+
+}
+.intro-container{
+	width: 960px;
+	text-align: left;
+	padding-top: 62px;
+
+}
+.intro-title{
+	background-image: url(../Qualcomm-image/5.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 42px;
+	display: inline-block;
+	text-align: left;
+
+}
+.intro-name{
+	font-size: 20px;
+	color: #153188;
+	top: -11px;
+	display: inline-block;
+	position: relative;
+	left: 21px;
+
+}
+.intro-name span{
+	display: block;
+	font-size: 14px;
+	color: #999999;
+}
+.intro-sub-intro{
+	font-size: 14px;
+	color: #333333;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.course-section{
+	background-color: #ffffff;
+
+}
+.course-container{
+	width: 960px;
+	text-align: left;
+	padding-top: 62px;
+
+}
+.course-title{
+	background-image: url(../Qualcomm-image/5.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 42px;
+	display: inline-block;
+	text-align: left;
+	margin-bottom: 28px;
+
+}
+.course-name{
+	font-size: 20px;
+	color: #153188;
+	top: -11px;
+	display: inline-block;
+	position: relative;
+	left: 21px;
+
+
+}
+.course-name span{
+	display: block;
+	font-size: 14px;
+	color: #999999;
+}
+.course-video{
+	width: 960px;
+	height: 540px;
+	background-image: url(../Qualcomm-image/26.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 186px;
+	text-align: center;
+
+}
+.course-video .video-cover{
+	font-size: 41.99px;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+.video-link{
+	width: 76px;
+	height: 76px;
+	background-color: #ffffff;
+	border-radius: 50%;
+}
+.open-class-section{
+	background-color: #ffffff;
+
+}
+.open-class-container{
+	width: 960px;
+	text-align: left;
+	padding-top: 25px;
+	font-size: 0;
+}
+.open-class-title{
+	font-size: 18px;
+	color: #333333;
+	line-height: 69px;
+}
+.open-class-intro .intro{
+	display: inline-block;
+	font-size: 12px;
+	color: #999999;
+}
+.open-class-intro .desc{
+	margin-left: 16px;
+
+}
+.open-class-intro .time{
+	margin-left: 29px;
+}
+.open-card-1{
+	display: inline-block;
+	width: 700px;
+	height: 533px;
+}
+.open-card-1 .list{
+	display: inline-block;
+	width: 700px;
+}
+.open-card-1 .list .open-card-list-item{
+	display: inline-block;
+	width: 700px;
+	overflow: hidden;
+
+}
+.open-card-1 .list .list-name{
+	background-color: #f7f7f7;
+	height: 40px;
+	width: 700px;
+	cursor: pointer;
+
+}
+.open-card-1 .list .list-name .name-key{
+	width: 15px;
+	height: 8px;
+	display: inline-block;
+	font-size: 0;
+	margin-left: 24px;
+	margin-right: 13px;
+}
+.open-card-1 .list .list-name .name-title{
+	font-size: 14px;
+	color: #000;
+	line-height: 40px;
+	display: inline-block;
+}
+.open-card-1 .list .list-name .name-download{
+	width: 16px;
+	height: 15px;
+	display: inline-block;
+	float: right;
+	margin:12px 20px;
+}
+.open-card-1 .list .list-item .list-desc{
+	width: 700px;
+	height: 0;
+	display: inline-block;
+	background-color: #ffffff;
+	 transition: all .2s ease;
+}
+.open-card-1 .list .open-card-list-item .list-desc:after{
+	content: '';
+	background-color: #f5f5f5;
+	width: 700px;
+	height: 1px;
+	display: inline-block;
+}
+.open-card-1 .list .open-card-list-item .list-desc .desc-name{
+	font-size: 0;
+	height: 0;
+}
+.open-card-1 .list .active .list-desc .desc-name{
+	display: inline-block;
+	font-size: 12px;
+	color: #969696;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 50px;
+	text-decoration: none;
+
+}
+.open-card-1 .list .list-item .list-desc .desc-time{
+	font-size: 0;
+	height: 0;
+}
+
+.open-card-1 .list .active .list-desc .desc-time{
+	font-size: 12px;
+	display: inline-block;
+	color: #999999;
+	float: right;
+	line-height: 40px;
+	margin-right: 21px;
+	text-decoration: none;
+}
+.open-card-1 .list .active .list-desc .list-desc{
+	color: #40b6f9;
+}
+
+.open-card-2{
+	display: inline-block;
+	width: 240px;
+	margin-left: 20px;
+	vertical-align: top;
+}
+.open-card-2 .cerd-message{
+	text-align: left;
+	padding-left: 12px;
+
+
+}
+.open-card-2 .cerd-message .message-title{
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 16px;
+	line-height: 18px;
+
+}
+.open-card-2 .cerd-message .message-suit{
+	font-size: 12px;
+	color: #999999;
+	line-height: 14px;
+
+}
+.open-card-2 .cerd-message .suit-desc{
+	color: #666666;
+	line-height: 14px;
+	font-size: 12px;
+	margin-bottom: 16px;
+	margin-top: 8px;
+
+
+}
+.open-card-2 .cerd-message .message-time{
+	font-size: 12px;
+	color: #999999;
+	line-height: 14px;
+	margin-top: 12px;
+
+}
+.open-card-2 .cerd-message .message-time span{
+	color: #666666;
+	margin-left: 11px;
+}
+.open-card-2 .cerd-message .message-amount{
+	font-size: 12px;
+	color: #999999;
+	margin-top: 12px;
+	line-height: 14px;
+
+}
+.open-card-2 .cerd-message .message-amount span{
+	color: #666666;
+	margin-left: 11px;
+
+}
+.open-card-2 .cerd-message .message-parther{
+	font-size: 12px;
+	color: #999999;
+}
+.open-card-2 .cerd-message .parther-map{
+	width: 170px;
+	height: 46px;
+
+}
+.open-card-2 .cerd-message .message-label{
+	color: #999999;
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 12px;
+
+}
+.open-card-2 .cerd-message .message-label-list{
+	 margin-top: 12px;
+
+}
+.open-card-2 .cerd-message .message-label-list .item{
+	display: inline-block;
+	background-color: #f7f7f7;
+	font-size: 12px;
+	line-height: 14px;
+	margin:5px 5px;
+	padding:5px 8px;
+	border-radius: 5px;
+
+
+}
+.open-card-2 .cerd-message:after{
+	content: '';
+	width: 230px;
+	height: 1px;
+	display: inline-block;
+	background-color: #999999;
+	margin-top: 12px;
+	margin-bottom: 12px;
+
+
+}
+.open-card-2 .cerd-technology{
+	padding-left: 12px;
+	text-align: left;
+
+}
+.open-card-2 .cerd-technology .technology-title{
+	font-size: 16px;
+	color: #000;
+	margin-bottom: 16px;
+}
+.open-card-2 .cerd-technology .technology-wb{
+	margin-bottom: 12px;
+
+}
+.open-card-2 .cerd-technology .technology-wb .wb-map{
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	margin-right: 8px;
+
+}
+.open-card-2 .cerd-technology .technology-wb .wb-name{
+	font-size: 12px;
+	color: #999999;
+	line-height: 44px;
+	vertical-align: top;
+	display: inline-block;
+}
+.open-card-2 .cerd-technology .technology-wx .wx-map{
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	margin-right: 8px;
+	vertical-align: top;
+
+}
+.open-card-2 .cerd-technology .technology-wx .wx-list{
+	margin-top: 6px;
+	display: inline-block;
+
+}
+.open-card-2 .cerd-technology .technology-wx .wx-name{
+	font-size: 12px;
+	color: #999999;
+	line-height: 14px;
+	vertical-align: top;
+	display: block;
+	margin-bottom: 5px;
+
+}
+
+.open-card-2 .cerd-technology .technology-wx .wx-list .wx-code{
+	display: inline-block;
+	position: relative;
+
+}
+.open-card-2 .cerd-technology .technology-wx .wx-list .wx-code .code-link{
+	color: #ffffff;
+	display: block;
+	background-color: #00b1ff;
+	width: 61px;
+	height: 22px;
+	line-height: 22px;
+	border-radius: 5px;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+
+
+
+}
+.open-card-2 .cerd-technology .technology-wx .wx-list .wx-code .code-img{
+	width: 90px;
+	height: 120px;
+	position: absolute;
+	left: -12px;
+	bottom: -123px;
+
+
+}
+.open-card-2 .cerd-technology .technology-wx .wx-list .wx-flock{
+	display: inline-block;
+
+}
+.open-card-2 .cerd-technology .technology-wx .wx-list .wx-flock .flock-link{
+	color: #ffffff;
+	display: block;
+	background-color: #00b1ff;
+	width: 61px;
+	height: 22px;
+	line-height: 22px;
+	border-radius: 5px;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 10px;
+}
+.teacher-section{
+	background-color: #ffffff;
+
+}
+.teacher-container{
+	width: 960px;
+	padding-top: 58px;
+
+}
+.teacher-container .teacher-title{
+	background-image: url(../Qualcomm-image/5.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 42px;
+	display: inline-block;
+	text-align: left;
+	margin-bottom: 40px;
+
+
+}
+.teacher-container .teacher-title .title-name{
+	font-size: 20px;
+	color: #153188;
+	top: -11px;
+	display: inline-block;
+	position: relative;
+	left: 21px;
+	
+
+
+}
+.teacher-container .teacher-title .title-name span{
+	display: block;
+	font-size: 14px;
+	color: #999999;
+}
+.teacher-container .teacher-case{
+	width: 960px;
+	position: relative;
+	height: 210px;
+	font-size: 0;
+	overflow: hidden;
+
+}
+.teacher-container .teacher-case .left{
+	position: absolute;
+	width: 25px;
+	height: 40px;
+	left: 0;
+	top: 85px;
+	font-size: 25px;
+	color: #ffffff;
+	background-color: #e2e6ea;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+	z-index: 999;
+
+
+
+}
+.teacher-container .teacher-case .right{
+	position: absolute;
+	width: 25px;
+	height: 40px;
+	right: 0;
+	top: 85px;
+	font-size: 25px;
+	color: #ffffff;
+	background-color: #e2e6ea;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+
+
+}
+.teacher-list{
+	display: flex;
+	flex: none;
+	height: 210px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.teacher-list .teacher-item{
+	width: 240px;
+	height: 210px;
+	vertical-align: top;
+	text-align: center;
+	padding-top: 12px;
+	display: inline-block;
+
+
+}
+.teacher-list .teacher-item .item-map{
+	width: 78px;
+	height: 78px;
+	margin-bottom: 13px;
+
+}
+.teacher-list .teacher-item .item-title{
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 10px;
+	line-height: 15px;
+}
+.teacher-list .teacher-item .item-desc{
+	font-size: 12px;
+	color: #999999;
+	line-height: 17px;
+	margin-bottom: 12px;
+	width: 184px;
+	display: inline-block;
+
+
+
+}
+.teacher-list .teacher-item .item-intro{
+	font-size: 12px;
+	color: #666666;
+	line-height: 16px;
+	display: inline-block;
+	width: 184px;
+	text-align: left;
+}
+.exploit-section{
+	background-color: #ffffff;
+
+}
+.exploit-container{
+	width: 960px;
+	padding-top: 49px;
+	text-align: left;
+
+
+}
+.exploit-title{
+	background-image: url(../Qualcomm-image/31.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 320px;
+	height: 42px;
+	display: block;
+	margin:0;
+
+}
+.exploit-title .title-name{
+	font-size: 20px;
+	color: #153188;
+	position: relative;
+	top: -7px;
+	line-height: 21px;
+	left: 22px;
+
+
+}
+.exploit-title .title-name span{
+	font-size: 14px;
+	color: #999999;
+	display: block;
+}
+.exploit-theme{
+	width: 960px;
+	margin-top: 30px;
+	height: 210px;
+	font-size: 0;
+
+}
+.exploit-theme .theme-map{
+	width: 300px;
+	height: 210px;
+	margin-right: 20px;
+	display: inline-block;
+}
+.exploit-theme .theme-case{
+	display: inline-block;
+	text-align: left;
+	font-size: 0;
+	width: 640px;
+	height: 210px;
+	vertical-align: top;
+}
+.exploit-theme .theme-case .theme-title{
+	font-size: 20px;
+	color: #000;
+	margin-bottom: 16px;
+	line-height: 23px;
+
+}
+.exploit-theme .theme-case .theme-desc{
+	font-size: 13px;
+	color: #666666;
+	line-height: 16px;
+	margin-bottom: 18px;
+}
+.exploit-theme .theme-case .theme-link{
+	margin-bottom: 25px;
+
+
+}
+.exploit-theme .theme-case .theme-link .theme-buy-link{
+	width: 130px;
+	height: 40px;
+	border:1px solid #00a8ff;
+	color: #ffffff;
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 15px;
+	background-color: #00a8ff;
+	border-radius: 5px;
+	display: inline-block;
+	text-decoration: none;
+
+
+}
+.exploit-theme .theme-case .theme-link .theme-see-link{
+	width: 130px;
+	height: 40px;
+	border:1px solid #00a8ff;
+	color: #00a8ff;
+	font-size: 15px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 15px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	display: inline-block;
+	text-decoration: none;
+	
+}
+.exploit-theme .theme-case .thene-correlation{
+
+}
+.exploit-theme .theme-case .thene-correlation .correlation-title{
+	font-size: 15px;
+	color: #666666;
+	margin-right: 6px;
+	display: inline-block;
+
+}
+.exploit-theme .theme-case .thene-correlation .correlation-desc{
+	display: inline-block;
+	padding:8px 17px;
+	background-color: #caeaef;
+	color: #4898a3;
+	font-size: 12px;
+	margin-left: 10px;
+	border-radius: 20px;
+
+}
+.user-guided-list{
+	width: 960px;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 0;
+	margin-top: 29px;
+
+
+
+}
+.user-guided-list .item{
+	width: 300px;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	margin:0;
+
+}
+.user-guided-list .manual{
+	background-image: url(../Qualcomm-image/17.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.user-guided-list .guide{
+	background-image: url(../Qualcomm-image/18.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.user-guided-list .system{
+	background-image: url(../Qualcomm-image/19.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.as-regards-section{
+	background-color: #ffffff;
+
+}
+.as-regards-container{
+	width: 960px;
+	padding-top: 60px;
+
+}
+.as-regards-title{
+	background-image: url(../Qualcomm-image/32.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 210px;
+	height: 42px;
+	display: block;
+	margin:0;
+}
+.as-regards-title .title-name{
+	font-size: 20px;
+	color: #153188;
+	position: relative;
+	top: -7px;
+	line-height: 21px;
+	left: 22px;
+}
+.as-regards-title .title-name span{
+	font-size: 14px;
+	color: #999999;
+	display: block;
+}
+.as-regards-list{
+	margin-top:50px;
+	display: flex;
+	justify-content: space-between;
+}
+.as-regards-list .item{
+	text-align: center;
+}
+.as-regards-list .item .item-map{
+	width: 146px;
+	height: 146px;
+
+}
+.as-regards-list .item .item-title{
+	margin-top: 21px;
+	font-size: 14px;
+	line-height: 15px;
+	color:#333;
+}
+.as-regards-list .item .item-desc{
+	font-size: 12px;
+	color: #999;
+	line-height: 13px;
+	margin-top: 12px;
+
+}
+.as-regards-list .item .desc-intro{
+	width: 90px;
+	height: 32px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #00a8ff;
+	line-height: 32px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
